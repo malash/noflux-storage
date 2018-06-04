@@ -3,6 +3,9 @@
   "plugins": [
     "import"
   ],
+  "env": {
+    "browser": true
+  },
   "parser": "babel-eslint",
   "rules": {
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
